@@ -11,13 +11,13 @@ production:
   password: ""
   encoding: utf8
 
-development:
-  adapter: mysql2
-  database: redmine_development
-  host: localhost
-  username: root
-  password: ""
-  encoding: utf8
+#development:
+#  adapter: mysql2
+#  database: redmine_development
+#  host: localhost
+#  username: root
+#  password: ""
+#  encoding: utf8
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -39,9 +39,9 @@ test:
 #  password: "postgres"
 
 # SQLite3 configuration example
-#production:
-#  adapter: sqlite3
-#  database: db/redmine.sqlite3
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
 
 # SQL Server configuration example
 #production:
